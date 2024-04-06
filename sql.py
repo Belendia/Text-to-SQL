@@ -10,7 +10,7 @@ cursor = connection.cursor()
 student_table = '''
     create table student
         (
-            name varchar(25)),
+            name varchar(25),
             class varchar(25),
             section varchar(25),
             marks int
